@@ -13,6 +13,7 @@ jobs:
 
 
     steps:
+<<<<<<< HEAD
       - name: 'Before'
         run: ls
 
@@ -21,3 +22,9 @@ jobs:
       - name: 'After'
         run: ls
 	    
+=======
+      - name: 'Testing Hithub action'
+        run: pwd
+      - name: 'Testing Printing'
+        run: echo Akram
+>>>>>>> d98829e4631661dfb8e13cba38b630177f62c060
